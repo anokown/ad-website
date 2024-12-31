@@ -1,0 +1,12 @@
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+}
