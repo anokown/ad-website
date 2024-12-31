@@ -4,8 +4,16 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 3rem;
     margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.4rem;
 }
 
 p {
@@ -18,7 +26,22 @@ p {
     height: 500px;
     text-align: center;
     background-image: url(./asset/img/top.avif);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section .section-inner {
+    text-align: center;
+}
+
+.section .section-inner .item-ls .item {
+    width: 30%;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 1rem;
+
 }
